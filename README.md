@@ -50,7 +50,7 @@ The program creates two accounts:
   - `[]` Rent sysvar
   - `[]` System program
 
-## Addresses
+## Accounts
 
 - program: 3jYkeV2vknPL5UgFxANiNBUnRJuGeZcBP22C2gZJ1BT7
 - admin: 3N7dHiEv6fz59uwNBTMNp9Fei9JKWL6je1fUnDxWXdbQ
