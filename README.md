@@ -9,17 +9,19 @@
 
 ## Run
 
+### Build program
+
 - Run `cargo build`
 
-## Run unit tests
+### Run unit tests
 
 - Run `cargo test`
 
-## Run integration tests
+### Run integration tests
 
 - Run `cargo test-bpf`
 
-## Run client
+### Run client
 
 - Run `cd client && npm run run`
 
