@@ -8,7 +8,7 @@ console.log("deposit history", history1.history);
 
 console.log("deposit balance", await app.getDepositedSol());
 
-await app.depositSol(0.11);
+await app.depositSol(0.2);
 
 console.log("deposit balance", await app.getDepositedSol());
 

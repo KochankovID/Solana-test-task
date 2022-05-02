@@ -4,23 +4,36 @@
 
 ## Setup
 
-### Solana cli
-
-- Run `solana config set --url localhost`
-- Run `solana-test-validator`
+- Run `cargo install`
+- Run `cd client && npm i`
 
 ## Run
 
 - Run `cargo build`
 
+## Run unit tests
+
+- Run `cargo test`
+
+## Run integration tests
+
+- Run `cargo test-bpf`
+
+## Run client
+
+- Run `cd client && npm run run`
+
 ## Description
+
 ### Overview
 
 The program creates two accounts:
+
 - Deposit account for storing sol tokens (data is empty)
 - PDA account for storing information about user's deposit
 
 ### Instructions
+
 - Deposit { amount: u64 } - Deposit lamports to the deposit account
   - `[signer, writable]` - The account of the person who wants to send the donation
   - `[writable]` - The deposit accumulate account
