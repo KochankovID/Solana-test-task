@@ -24,7 +24,7 @@ The program creates two accounts:
 - Deposit { amount: u64 } - Deposit lamports to the deposit account
   - `[signer, writable]` - The account of the person who wants to send the donation
   - `[writable]` - The deposit accumulate account
-  - `[writable]` The PDA account for storing data
+  - `[writable]` The PDA account for storing history data
   - `[]` System program
 - Withdraw - Send all deposited lamports to admin account
   - `[signer, writable]` Admin account
@@ -32,6 +32,12 @@ The program creates two accounts:
   - `[]` Rent sysvar
 - Initialize - Create PDA and deposit accounts
   - `[signer, writable]` The admin account
-  - `[writable]` The PDA account for storing data
+  - `[writable]` The PDA account for storing history data
+  - `[writable]` The deposit accumulate account
   - `[]` Rent sysvar
   - `[]` System program
+
+## Addresses
+
+- program: 3jYkeV2vknPL5UgFxANiNBUnRJuGeZcBP22C2gZJ1BT7
+- admin: 3N7dHiEv6fz59uwNBTMNp9Fei9JKWL6je1fUnDxWXdbQ

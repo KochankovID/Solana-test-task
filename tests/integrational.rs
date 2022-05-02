@@ -128,7 +128,7 @@ async fn test_make_donation() {
         Account::new(
             10890880,
             0,
-            &pubkey!("AkCLhVcBtdSs2erJ5X129pQaTE6dqzhP8ou6AtZUBQkQ"),
+            &pubkey!("3jYkeV2vknPL5UgFxANiNBUnRJuGeZcBP22C2gZJ1BT7"),
         )
     );
 

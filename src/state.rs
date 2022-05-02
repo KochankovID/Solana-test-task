@@ -73,9 +73,9 @@ mod test {
         let (address, bump) = DepositHistoryData::get_pda_pubkey_with_bump();
         assert_eq!(
             address,
-            pubkey!("CvvPuBpyVDFdURkB55zZN68znT8AeXq5dHf7Xpcrt1AJ")
+            pubkey!("7jYpqqFSVDCGwTigh8a2vkcUfZKHGsrSVXAsfj8GeS7j")
         );
-        assert_eq!(bump, 253);
+        assert_eq!(bump, 255);
     }
 
     #[test]
@@ -83,8 +83,8 @@ mod test {
         let (address, bump) = DepositHistoryData::get_deposit_with_bump();
         assert_eq!(
             address,
-            pubkey!("6p8ruZBzLK35xTYyb9a52q3X6uG5YhixF4guAKSyf8TE")
+            pubkey!("9Ry9NaGh9kKrBSxyUMWTsgRDVDfocUrDvMoZCbvh9LxC")
         );
-        assert_eq!(bump, 254);
+        assert_eq!(bump, 255);
     }
 }

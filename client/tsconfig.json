@@ -1,0 +1,28 @@
+{
+  "ts-node": {
+    "esm": true
+  },
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowJs": true,
+    "checkJs": true,
+    "target": "esnext",
+    "strict": true,
+    "strictNullChecks": true,
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "outDir": "build",
+    "removeComments": true,
+    "forceConsistentCasingInFileNames": true,
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

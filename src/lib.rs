@@ -10,4 +10,4 @@ pub mod state;
 pub const DEPOSIT_HISTORY_SEED: &str = "deposit-history-seed";
 pub const DEPOSIT_SEED: &str = "deposit";
 pub const ADMIN_PUBKEY: Pubkey = pubkey!("3N7dHiEv6fz59uwNBTMNp9Fei9JKWL6je1fUnDxWXdbQ");
-solana_program::declare_id!("AkCLhVcBtdSs2erJ5X129pQaTE6dqzhP8ou6AtZUBQkQ");
+solana_program::declare_id!("3jYkeV2vknPL5UgFxANiNBUnRJuGeZcBP22C2gZJ1BT7");
